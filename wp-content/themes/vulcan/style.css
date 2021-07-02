@@ -1,0 +1,91 @@
+/* =============================== */
+/* === START - big main slider === */
+/* =============================== */
+.main-bunner-T-2 *:focus { outline: none; }
+
+.main-bunner-T-2 {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+    height: 259px;
+    background-image: url('../../uploads/main-slider/1.png');
+
+    background-size: cover;
+}
+
+.main-bunner-T-2 .slider {padding: 0; margin: 0;}
+
+.slick-next, .slick-next:focus, .slick-next:hover, .slick-prev, .slick-prev:focus, .slick-prev:hover {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    z-index: 99999!important;
+}
+
+.slick-prev {left: 0!important;}
+.slick-next {right: 0!important;}
+
+.slick-slide li {
+	width: 100%;display: inline-block;
+}
+
+.slick-slide li img {display: block; max-width: 100%;}
+
+.main-bunner-T-2 .slider .main-slider-i {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    max-width: 420px;
+    text-shadow: 0 2px 0 #000;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+	width: auto;
+}
+
+.main-bunner-T-2 .slider .main-slider-i__tit {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #e9f7ff;
+    text-shadow: 2px 2px 7px #2c84fb, -2px -2px 7px #2c84fb, -2px 2px 7px #2c84fb, 2px -2px 7px #2c84fb;
+}
+
+.main-bunner-T-2 .slider .btn-helper {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    transition: right .5s;
+    text-decoration: none !important;
+}
+/* =============================== */
+/* ==== END - big main slider ==== */
+/* =============================== */
+
+
+
+/* ========================================= */
+/* === START - small slider on game page === */
+/* ========================================= */
+.slots-slide-T-2 .items-slide {opacity: 1 !important; display: flex; overflow: hidden;}
+.slots-slide-T-2 .item {margin: 0 auto;}
+/* ========================================= */
+/* ==== END - small slider on game page ==== */
+/* ========================================= */
+
